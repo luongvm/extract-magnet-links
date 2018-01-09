@@ -1,0 +1,21 @@
+{
+  "name": "extract-magnet-links",
+  "version": "1.0.0",
+  "description": "Extract magnet links in a webpage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luong Vu <joturako@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "library-utorrent": "^1.1.0",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint": "^4.15.0",
+  }
+}
